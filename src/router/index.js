@@ -39,6 +39,12 @@ export default new VueRouter({
           path: 'liquid-loading',
           component: () => import('@/views/liquid-loading/index.vue'),
         },
+
+        // 打勾动画
+        {
+          path: 'tick-animation',
+          component: () => import('@/views/tick-animation/index.vue'),
+        },
       ],
     },
   ],

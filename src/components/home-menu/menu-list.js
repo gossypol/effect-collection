@@ -15,4 +15,8 @@ export default [
     name: '液体加载效果',
     path: '/liquid-loading',
   },
+  {
+    name: '打勾动画',
+    path: '/tick-animation',
+  },
 ];
