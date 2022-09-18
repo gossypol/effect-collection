@@ -21,6 +21,12 @@ export default new VueRouter({
           path: 'introduction',
           component: () => import('@/views/introduction/index.vue'),
         },
+
+        // 流光按钮
+        {
+          path: 'streamer-button',
+          component: () => import('@/views/streamer-button/index.vue'),
+        },
       ],
     },
   ],
