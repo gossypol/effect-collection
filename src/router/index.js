@@ -27,6 +27,12 @@ export default new VueRouter({
           path: 'streamer-button',
           component: () => import('@/views/streamer-button/index.vue'),
         },
+
+        // 3D 立体播放器
+        {
+          path: '3d-player',
+          component: () => import('@/views/3d-player/index.vue'),
+        },
       ],
     },
   ],
