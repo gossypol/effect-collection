@@ -33,6 +33,12 @@ export default new VueRouter({
           path: '3d-player',
           component: () => import('@/views/3d-player/index.vue'),
         },
+
+        // 液体加载动画
+        {
+          path: 'liquid-loading',
+          component: () => import('@/views/liquid-loading/index.vue'),
+        },
       ],
     },
   ],
