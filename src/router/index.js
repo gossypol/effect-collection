@@ -51,6 +51,12 @@ export default new VueRouter({
           path: 'text-spotlight',
           component: () => import('@/views/text-spotlight/index.vue'),
         },
+
+        // 文字特效1
+        {
+          path: 'text-effects-1',
+          component: () => import('@/views/text-effects-1/index.vue'),
+        },
       ],
     },
   ],

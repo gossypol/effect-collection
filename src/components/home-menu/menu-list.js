@@ -23,4 +23,8 @@ export default [
     name: '文字聚光灯效果',
     path: '/text-spotlight',
   },
+  {
+    name: '文字特效1',
+    path: '/text-effects-1',
+  },
 ];
