@@ -19,4 +19,8 @@ export default [
     name: '打勾动画',
     path: '/tick-animation',
   },
+  {
+    name: '文字聚光灯效果',
+    path: '/text-spotlight',
+  },
 ];

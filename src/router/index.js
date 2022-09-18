@@ -45,6 +45,12 @@ export default new VueRouter({
           path: 'tick-animation',
           component: () => import('@/views/tick-animation/index.vue'),
         },
+
+        // 文字聚光灯效果
+        {
+          path: 'text-spotlight',
+          component: () => import('@/views/text-spotlight/index.vue'),
+        },
       ],
     },
   ],
