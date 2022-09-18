@@ -63,6 +63,12 @@ export default new VueRouter({
           path: 'text-breakdown',
           component: () => import('@/views/text-breakdown/index.vue'),
         },
+
+        // 图片拖拽对比效果
+        {
+          path: 'photo-comparison',
+          component: () => import('@/views/photo-comparison/index.vue'),
+        },
       ],
     },
   ],

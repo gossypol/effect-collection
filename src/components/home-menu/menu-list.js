@@ -31,4 +31,8 @@ export default [
     name: '文字崩坏效果',
     path: '/text-breakdown',
   },
+  {
+    name: '图片对比效果',
+    path: '/photo-comparison',
+  },
 ];
