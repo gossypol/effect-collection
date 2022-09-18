@@ -57,6 +57,12 @@ export default new VueRouter({
           path: 'text-effects-1',
           component: () => import('@/views/text-effects-1/index.vue'),
         },
+
+        // 文字崩坏效果
+        {
+          path: 'text-breakdown',
+          component: () => import('@/views/text-breakdown/index.vue'),
+        },
       ],
     },
   ],

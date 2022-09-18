@@ -27,4 +27,8 @@ export default [
     name: '文字特效1',
     path: '/text-effects-1',
   },
+  {
+    name: '文字崩坏效果',
+    path: '/text-breakdown',
+  },
 ];
