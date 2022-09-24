@@ -35,4 +35,8 @@ export default [
     name: '图片对比效果',
     path: '/photo-comparison',
   },
+  {
+    name: 'B站Banner景深效果',
+    path: '/depth-of-field',
+  },
 ];

@@ -69,6 +69,12 @@ export default new VueRouter({
           path: 'photo-comparison',
           component: () => import('@/views/photo-comparison/index.vue'),
         },
+
+        // B站 Banner 景深对焦效果
+        {
+          path: 'depth-of-field',
+          component: () => import('@/views/depth-of-field/index.vue'),
+        },
       ],
     },
   ],
