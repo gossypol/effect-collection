@@ -10,6 +10,8 @@ module.exports = {
   ],
   rules: {
     'max-len': ['error', { code: 350 }],
+    'no-restricted-properties': 'off',
+    'no-console': 'off',
   },
   parserOptions: {
     parser: 'babel-eslint',
