@@ -59,6 +59,11 @@ export const routeChildren = [
     name: 'B站 Banner 景深对焦效果',
     component: () => import('@/views/depth-of-field/index.vue'),
   },
+  {
+    path: 'liquid-ball',
+    name: '水球',
+    component: () => import('@/views/liquid-ball/index.vue'),
+  },
 ];
 
 export default new VueRouter({
