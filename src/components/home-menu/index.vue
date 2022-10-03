@@ -12,13 +12,13 @@
 </template>
 
 <script>
-import menuList from './menu-list';
+import { routeChildren } from '@/router/index';
 
 export default {
   name: 'HomeMenu',
   data() {
     return {
-      menuList,
+      menuList: routeChildren.map(child => ({ name: child.name, path: `/${child.path}` })),
       currentPath: this.$route.path,
     };
   },
