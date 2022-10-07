@@ -1,12 +1,12 @@
 <template>
   <div class="graph container">
     <div class="container__images">
-      <div><img src="./autumn-1.png"></div>
-      <div><img src="./autumn-2.png"></div>
-      <div><img src="./autumn-3.png"></div>
-      <div><img src="./autumn-4.png"></div>
-      <div><img src="./autumn-5.png"></div>
-      <div><img src="./autumn-6.png"></div>
+      <div><img src="./autumn-1.webp"></div>
+      <div><img src="./autumn-2.webp"></div>
+      <div><img src="./autumn-3.webp"></div>
+      <div><img src="./autumn-4.webp"></div>
+      <div><img src="./autumn-5.webp"></div>
+      <div><img src="./autumn-6.webp"></div>
     </div>
     <div class="container__title">B站 Banner 图片景深对焦效果</div>
     <div class="container__tips">鼠标在 Banner 里移动查看效果</div>
