@@ -64,6 +64,11 @@ export const routeChildren = [
     name: '水球',
     component: () => import('@/views/liquid-ball/index.vue'),
   },
+  {
+    path: 'scratch-off-ticket',
+    name: '刮刮乐',
+    component: () => import('@/views/scratch-off-ticket/index.vue'),
+  },
 ];
 
 export default new VueRouter({
