@@ -1,6 +1,6 @@
 <template>
   <div class="graph main-introduction">
-    收集的一些好看、好玩的 CSS
+    收集的一些好看、好玩的 JS、CSS 效果
   </div>
 </template>
 
