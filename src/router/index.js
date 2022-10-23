@@ -69,6 +69,11 @@ export const routeChildren = [
     name: '刮刮乐',
     component: () => import('@/views/scratch-off-ticket/index.vue'),
   },
+  {
+    path: 'sun-and-moon',
+    name: '日月交替',
+    component: () => import('@/views/sun-and-moon/index.vue'),
+  },
 ];
 
 export default new VueRouter({
