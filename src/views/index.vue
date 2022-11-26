@@ -31,6 +31,7 @@ export default {
 
   &__container {
     flex: 1;
+    overflow: hidden;
   }
 }
 </style>
