@@ -74,6 +74,11 @@ export const routeChildren = [
     name: '日月交替',
     component: () => import('@/views/sun-and-moon/index.vue'),
   },
+  {
+    path: 'water-drop-card',
+    name: '水滴卡片',
+    component: () => import('@/views/water-drop-card/index.vue'),
+  },
 ];
 
 export default new VueRouter({
