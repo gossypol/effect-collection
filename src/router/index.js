@@ -79,6 +79,11 @@ export const routeChildren = [
     name: '水滴卡片',
     component: () => import('@/views/water-drop-card/index.vue'),
   },
+  {
+    path: 'border-animation',
+    name: '边框动画',
+    component: () => import('@/views/border-animation/index.vue'),
+  },
 ];
 
 export default new VueRouter({
