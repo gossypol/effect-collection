@@ -1,5 +1,6 @@
 <template>
   <div class="graph">
+    <div class="tips">鼠标悬浮查看效果</div>
     <div class="button">按钮</div>
   </div>
 </template>
@@ -14,6 +15,14 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
+  .tips {
+    font-size: 16px;
+    margin-top: -100px;
+    margin-bottom: 200px;
+    color: #FFFFFF;
+  }
 
   .button {
     width: 200px;
