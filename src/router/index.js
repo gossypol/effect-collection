@@ -84,6 +84,11 @@ export const routeChildren = [
     name: '边框动画',
     component: () => import('@/views/border-animation/index.vue'),
   },
+  {
+    path: 'text-charge-effect',
+    name: '文字充电效果',
+    component: () => import('@/views/text-charge-effect/index.vue'),
+  },
 ];
 
 export default new VueRouter({
