@@ -89,6 +89,11 @@ export const routeChildren = [
     name: '文字充电效果',
     component: () => import('@/views/text-charge-effect/index.vue'),
   },
+  {
+    path: 'skeleton',
+    name: '骨架屏',
+    component: () => import('@/views/skeleton/index.vue'),
+  },
 ];
 
 export default new VueRouter({
