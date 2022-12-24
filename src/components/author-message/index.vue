@@ -12,7 +12,6 @@
     <p v-if="name" class="author-message__name">作者: {{name}}</p>
     <p v-if="email" class="author-message__email">邮箱: {{email}}</p>
     <a v-if="link" class="author-message__link" :href="link" target="_blank">{{link}}</a>
-    <!-- <a v-if="link" class="author-message__link">{{link}}</a> -->
   </section>
 </template>
 
