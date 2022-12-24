@@ -99,6 +99,11 @@ export const routeChildren = [
     name: 'SVG 折线图',
     component: () => import('@/views/svg-broken-line/index.vue'),
   },
+  {
+    path: 'intersecting-rings',
+    name: '相交圆环',
+    component: () => import('@/views/intersecting-rings/index.vue'),
+  },
 ];
 
 export default new VueRouter({
