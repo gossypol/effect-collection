@@ -94,6 +94,11 @@ export const routeChildren = [
     name: '骨架屏',
     component: () => import('@/views/skeleton/index.vue'),
   },
+  {
+    path: 'svg-broken-line',
+    name: 'SVG 折线图',
+    component: () => import('@/views/svg-broken-line/index.vue'),
+  },
 ];
 
 export default new VueRouter({
