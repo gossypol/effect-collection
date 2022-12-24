@@ -29,7 +29,6 @@ export default {
   },
   mounted() {
     const images = document.querySelectorAll('.container__images > div > img');
-    console.log(images);
 
     document.querySelector('.container__images').addEventListener('mousemove', (e) => {
       const percentage = e.clientX / window.outerWidth;
