@@ -40,7 +40,7 @@ export default {
     left: 0;
     clip-path: ellipse(90px 60px at 50% 50%);
     animation: spotlight 5s infinite;
-    background-image: url("./bg.jpg");
+    background-image: url("~@/assets/images/background-1.jpg");
     background-size: 180%;
     background-position: center;
     background-clip: text;

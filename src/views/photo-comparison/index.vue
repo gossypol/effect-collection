@@ -38,7 +38,7 @@ export default {};
 
   .photo {
     --height: 400px;
-    --image: url("./photo.jpg");
+    --image: url("~@/assets/images/scenery-1.jpg");
 
     width: 600px;
     height: var(--height);

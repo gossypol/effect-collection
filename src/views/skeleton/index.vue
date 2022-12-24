@@ -2,7 +2,7 @@
   <div class="graph skeleton">
     <div class="skeleton__card">
       <div class="image">
-        <img src="./image.jpg" alt="image">
+        <img :src="image" alt="image">
       </div>
       <div class="content">
         <h4>这是一个标题</h4>
@@ -13,9 +13,7 @@
     </div>
 
     <div class="skeleton__card skeleton__loading">
-      <div class="image">
-        <!-- <img src="./image.jpg" alt="image"> -->
-      </div>
+      <div class="image"></div>
       <div class="content">
         <h4></h4>
         <div class="description"></div>
@@ -25,8 +23,14 @@
 </template>
 
 <script>
-export default {
+import image from '@/assets/images/scenery-2.jpg';
 
+export default {
+  data() {
+    return {
+      image,
+    };
+  },
 };
 </script>
 
