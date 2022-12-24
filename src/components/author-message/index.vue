@@ -11,17 +11,18 @@
   >
     <p v-if="name" class="author-message__name">作者: {{name}}</p>
     <p v-if="email" class="author-message__email">邮箱: {{email}}</p>
-    <p v-if="link" class="author-message__link">{{link}}</p>
+    <a v-if="link" class="author-message__link" :href="link" target="_blank">{{link}}</a>
+    <!-- <a v-if="link" class="author-message__link">{{link}}</a> -->
   </section>
 </template>
 
 <script>
 export default {
   props: {
-    left: [Number, String],
-    top: [Number, String],
-    right: [Number, String],
-    bottom: [Number, String],
+    left: String,
+    top: String,
+    right: String,
+    bottom: String,
 
     color: {
       type: String,
@@ -60,6 +61,10 @@ export default {
   &__link {
     font-size: 12px;
     line-height: 18px;
+  }
+
+  &__link:hover {
+    color: @color-blue;
   }
 }
 </style>
