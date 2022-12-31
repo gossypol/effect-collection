@@ -1,16 +1,16 @@
 <template>
   <div class="graph player">
-    <video class="background-video" src="./scene.mp4" autoplay muted loop></video>
+    <video class="background-video" :src="scene" autoplay muted loop></video>
     <div class="box">
       <div class="box__wrap">
         <div class="video-wrap">
-          <video class="video" src="./scene.mp4" autoplay muted loop></video>
+          <video class="video" :src="scene" autoplay muted loop></video>
         </div>
         <div class="video-wrap">
-          <video class="video" src="./scene.mp4" autoplay muted loop></video>
+          <video class="video" :src="scene" autoplay muted loop></video>
         </div>
         <div class="video-wrap">
-          <video class="video" src="./scene.mp4" autoplay muted loop></video>
+          <video class="video" :src="scene" autoplay muted loop></video>
         </div>
       </div>
     </div>
@@ -18,7 +18,15 @@
 </template>
 
 <script>
-export default {};
+import scene from '@/assets/videos/scene.mp4';
+
+export default {
+  data() {
+    return {
+      scene,
+    };
+  },
+};
 </script>
 
 <style lang="less" scoped>
