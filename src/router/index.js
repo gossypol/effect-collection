@@ -104,6 +104,11 @@ export const routeChildren = [
     name: '相交圆环',
     component: () => import('@/views/intersecting-rings/index.vue'),
   },
+  {
+    path: 'particle-animation-1',
+    name: '粒子动效1',
+    component: () => import('@/views/particle-animation-1/index.vue'),
+  },
 ];
 
 export default new VueRouter({
