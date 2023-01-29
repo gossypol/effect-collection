@@ -109,6 +109,11 @@ export const routeChildren = [
     name: '粒子动效1',
     component: () => import('@/views/particle-animation-1/index.vue'),
   },
+  {
+    path: 'jug-shaking',
+    name: '水罐晃动',
+    component: () => import('@/views/jug-shaking/index.vue'),
+  },
 ];
 
 export default new VueRouter({
