@@ -12,6 +12,7 @@ module.exports = {
     'max-len': ['error', { code: 350 }],
     'no-restricted-properties': 'off',
     'no-console': 'off',
+    'no-param-reassign': ['error', { 'props': false }],
   },
   parserOptions: {
     parser: 'babel-eslint',
