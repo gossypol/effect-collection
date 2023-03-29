@@ -114,6 +114,11 @@ export const routeChildren = [
     name: '水罐晃动',
     component: () => import('@/views/jug-shaking/index.vue'),
   },
+  {
+    path: 'fireworks',
+    name: '烟花效果',
+    component: () => import('@/views/fireworks/index.vue'),
+  },
 ];
 
 export default new VueRouter({
